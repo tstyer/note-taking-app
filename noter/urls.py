@@ -19,6 +19,6 @@ from django.urls import path, include
 from api.views import index as index_views
 
 urlpatterns = [
-    path('', index_views, name='index'),
+    path('/hello', index_views, name='index'),
     path('admin/', admin.site.urls),
 ]
