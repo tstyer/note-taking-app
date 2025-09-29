@@ -56,17 +56,15 @@ There is no particular age, but the majority will likely be late-teen's to late-
 
 #### Target Audience Content
 
-After researching the target audience, I also needed to ensure that the content I produced was culturally appropriate. When writing descriptions and selecting images, I made sure the material aligned with the interests of those seeking day care and training services for dogs.
+When writing descriptions and selecting images, I made sure the material aligned with the interests of those seeking simplicity and a visually appealing layout.
 
-Although there isn’t a single, defined demographic that fits this criteria, it’s still important to adopt a consistent theme and brand personality. This branding would reflect the general target audience I identified in the Folkestone area: typically, a couple in their mid-thirties with one or two medium-sized dogs, who are new to dog training.
-
-This would encompass the majority of the audience. Fewer of the audience would be categorisd as businesses. Therefore, the content would also need to cater to them. Addressing the business needs is the first step, and this is acheived within the descriptions on the Service's page (catering to large quantities of dogs, opening hours, etc.). And, a general need is for the website to be intuitive, easy-to-navigate and responsive for busy professionals. 
+Although there isn’t a single, defined demographic that fits this criteria, it’s still important to adopt a consistent theme and brand personality. This branding would reflect the general target audience I identified as either a student who needs to take notes for their studies, or an employee who needed to organise daily tasks. *These are very different audiences.*
 
 #### Business Goals
 
-After identifying my target audience, I needed to position the business as a distinctive outlier in terms of the benefits it offers. This involved researching local day care and training providers, not only in Folkestone but across the wider Kent area. I discovered that it’s uncommon for businesses to offer both 24/7 dog day care and basic training — most tend to focus on one or the other.
+After identifying my target audience, I needed to position the app as a distinctive outlier in terms of the benefits it offers. This involved researching competitors.
 
-I also noticed that many of the websites appeared cluttered and difficult to navigate. As a result, I made sure that mine would be clean, user-friendly, and easy to navigate. This would also help users who aren't considered tech-savvy, as some (fewer) of the audience fall into the older generations who grew up without technology. 
+What did you notice upon researching? 
 
 ### Structure
 
@@ -693,7 +691,13 @@ I also think adding a separate page dedicated to booking would be better for use
 
 ## Future Considerations
 
-Looking ahead, the website will be expanded with interactive JavaScript features to enhance user engagement. In addition, basic SEO techniques will be implemented to improve the site's visibility on search engines, making it easier for potential customers to discover the service. There's also a plan to launch a dedicated blog section featuring tips on dog care, training advice, and local pet-friendly spots, offering ongoing value to dog owners in the Folkestone area.
+Looking ahead, the website will be expanded with interactive JavaScript features to enhance user engagement. 
+
+In addition, basic SEO techniques will be implemented to improve the app's visibility on search engines, making it easier for potential customers to discover the service. 
+
+Lastly, I plan to expand on this app, enlarging the platform and giving it the capability to be adjusted depending on the goal of the user (student, employee, executive, management).
+
+I also plan to include payment plans and launch it for real-world use. 
 
 ### Implementing a 404 page
 
