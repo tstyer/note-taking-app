@@ -68,20 +68,18 @@ What did you notice upon researching?
 
 ### Structure
 
-A key goal when creating the website was to ensure it was well-organised and intuitive to use. To achieve this, the planning and design stages were carried out using Balsamiq, as shown later in this README.
+A key goal when creating the website was to ensure it was well-organised and intuitive to use. To achieve this, the planning and design stages were carried out using Canva, as shown later in this README.
 
-I made sure the information was presented in a clear, accessible manner—comprehensive enough to include all the essentials on the homepage, along with a sufficient number of calls to action, without overwhelming the user.
-
-The site’s structure was designed to strike a balance between linear and non-linear navigation. It isn’t strictly sequential, nor is it entirely freeform; instead, it allows users to move fluidly between pages without feeling lost or overloaded. An example of this is the 'Go Back home' button on the footer of every page (except the home page). 
+I made sure the information was presented in a clear, accessible manner—comprehensive enough to include all the essentials on the homepage, along with a sufficient number of calls to action, without overwhelming the user. 
 
 All the above (structure, strategy and scope) helped inform the development of user stories.
 
 ### User Requirements/Expectations
 
-1. Immediately what Folkestone Dogs do in the header and subheads of the homepage.
+1. Immediately what Noter does in the header and subheads of the homepage.
 2. Provide service information on the homepage.
 3. Address safety concerns by giving social proof and qualifications.
-4. An easy to navigate website that is consistent.
+4. An easy to navigate, single-page website that is consistent.
 5. See clear and understandable information.
 6. See contact details throughout.
 7. Offer responsiveness for mobile, tablet, desktop and interaction when hovering over links.
@@ -90,41 +88,40 @@ All the above (structure, strategy and scope) helped inform the development of u
 
 #### Target User Goals
 
-The goal for the target user will be to learn who Folkestone Dogs are, what makes them unique, why they should book their initial visit with the company, and then to proceed with a booking. 
-They will be searching for a local business that can offer training and/or daycare services 7 days per week, 365 days per year. 
-They'll be looking for reliability in the business by different means, and to find their contact information easily. 
+The goal for the target user will be to learn what Noter is, what makes it unique, and why they should use the app for taking notes. 
+They will be searching for apps that can offer a basic, simple design, that allows you to write and store notes instantly. 
+They'll be looking for reliability in the app. 
 
 #### First-Time Visitors
 
-1. As a first-time visitor, I want to see why I should choose Folkestone dogs over another business.   
+1. As a first-time visitor, I want to see why I should choose Noter over another options.   
   
-2. As a first time visitor, I want to read about their services, experience and qualifications on the first page.
+2. As a first time visitor, I want to easily understand how to write and store notes.
    
 3. As a first-time visitor, I want to easily navigate to any contact information or page.
  
-4. As a first-time visitor, I want to see where the business is located.   
+4. As a first-time visitor, I want to see social proof.    
   
 
 #### As a Returning Visitor
 
-1. As a returning visitor, I want to easily navigate to their contact/booking page.
+1. As a returning visitor, I want to easily navigate to their contact page.
    
 2. As a returning visitor, I want to easily find their social media links to see their social proof with current clients.
    
-3. As a returning visitor, I want to see compelling images.
+3. As a returning visitor, I want to see my notes saved and in order. 
    
 4. As a returning visitor, I'd like to easily access and navigate the site via a mobile or tablet.
    
 
 ### Site Owner Goals
 
-My goals for Folkestone Dogs are to create an engaging and user-friendly site that appeals to the desires of the target audience. The goal will be to showcase the reliability of the business
+My goals for Noter are to create an engaging and user-friendly site that appeals to the desires of the target audience. The goal will be to showcase the reliability of the business
 through simple and clean descriptions that stand out from their background. 
 
 Other Sit Owner Goals:
-- To boost online bookings by inspiring the reader.
-- To build trust with potential future clients via social proof, achievements, images and descriptions.
-- To increase daycare benefits by emphasising socialising, behaviour, exercise benefits.
+- To boost online registrations. 
+- To build trust with potential future users via social proof, achievements, and simplicity. 
 - To increase social media following by easily discoverable links.
 - To offer a clear contact form and clearly display a 'Success' page once submitted.
 
@@ -132,7 +129,9 @@ Other Sit Owner Goals:
 
 ### Nav. Bar
 
-The navigation bar in the website is consistent across all web pages and has a responsive design with colour-changing feedback. 
+The navigation bar in the website is consistent across all web pages and has a responsive design with colour-changing feedback. There are only 2 pages (Home and Contact)
+
+*CONTINUE HERE*
 
 The nav. bar:
 
