@@ -17,8 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from api.views import index as index_views
+from api.views import CreateUserView
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 urlpatterns = [
     path('/hello', index_views, name='index'),
     path('admin/', admin.site.urls),
+    path('api/user/register/', CreateUserView.as_view(), name="Register" )
 ]

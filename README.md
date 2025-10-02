@@ -129,7 +129,7 @@ Other Sit Owner Goals:
 
 ### Nav. Bar
 
-The navigation bar in the website is consistent across all web pages and has a responsive design with colour-changing feedback. There are only 2 pages (Home and Contact)
+The navigation bar in the website is consistent across all web pages and has a responsive design with colour-changing feedback. There are only 2 pages (Home and Contact).
 
 *CONTINUE HERE*
 
