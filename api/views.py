@@ -27,7 +27,7 @@ class NoteListCreate(generics.ListCreateAPIView):
 
 class NoteDelete(generics.DestroyAPIView):
     serializer_class = NoteSerializer
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated] #You can delete the note IF you're authenticated. 
 
     def get_queryset(self):
         return super().get_queryset()
