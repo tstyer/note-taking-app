@@ -196,6 +196,8 @@ The above shows the basic html layout provided by Django and says we are unautho
 
 Create credit for django documentation used for the functions in the views: https://docs.djangoproject.com/en/5.2/topics/http/views/
 
+Mention Tailwind... 
+
 ---
 
 ## Acknowledgements
