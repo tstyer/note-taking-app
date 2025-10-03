@@ -188,6 +188,8 @@ List your user stories and describe how each was met in the final project.
 - [Links to any external code, images, or media]
 - Clearly cite all third-party assets
 
+Create credit for django documentation used for the functions in the views: https://docs.djangoproject.com/en/5.2/topics/http/views/
+
 ---
 
 ## Acknowledgements
