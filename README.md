@@ -166,6 +166,12 @@ List your user stories and describe how each was met in the final project.
 
 ### Manual Testing
 
+#### Testing of URL Path: /api/note
+
+![Screenshot of URL working](./assets/images/screenshot_of_working_url_api_notes.png)
+
+The above shows the basic html layout provided by Django and says we are unauthorized, which is correct. 
+
 - Example 1
 - Example 2
 - etc. ...
