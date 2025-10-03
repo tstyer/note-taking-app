@@ -1,34 +1,64 @@
 ﻿# Noter
-
-# Folkestone Dogs
  
 See the live version of Noter, here: [Noter Deployed Site](https://tstyer.github.io)
 
 ![Header for Noter App](assets/)
 
-## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Project Overview](#project-overview)
-3. [User Experience (UX)](#user-experience-ux)
-4. [Features](#features)
-5. [Design](#design)
-6. [Technologies Used](#technologies-used)
-7. [Folder Structure](folder-structure)
-8. [Deployment](#deployment)
-9. [Testing](#testing)
-10. [Bugs](#bugs)
-11. [Validation Errors](#validation-errors)
-12. [Image Testing](#image-testing)
-13. [Credits](#credits)
-14. [Conclusion](#conclusion)
+---
 
 
 ## Introduction
 
 Welcome to the Noter project.
 
-This is a simple, responsive website built using *HTML, CSS, JavaScript, React.JS, Jest, Python,* and *Django*. It serves as a simple note-taking app, deisgned to be easily accessed and simple to navigate. 
+This is a simple, responsive website built using *HTML, Tailwind CSS, JavaScript, React.JS, Jest, Python,* and *Django*. It serves as a simple note-taking app, deisgned to be easily accessed and simple to navigate. 
+
+
+---
+
+
+## Table of Contents
+
+- [User Experience (UX)](#user-experience-ux)
+  - [Strategy Plane](#strategy-plane)
+  - [Scope Plane](#scope-plane)
+  - [Structure Plane](#structure-plane)
+  - [Skeleton Plane](#skeleton-plane)
+  - [Surface Plane](#surface-plane)
+- [Wireframes](#wireframes)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
+- [Testing](#testing)
+  - [User Stories Testing](#user-stories-testing)
+  - [Manual Testing](#manual-testing)
+  - [Validators and Tools](#validators-and-tools)
+  - [Bugs](#bugs)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
+
+---
+
+
+## User Experience (UX)
+
+To ensure great user experience, it's imperative to know who my target audiences are. Afterwhich, I can craft a strategy to appeal to them, stating the benefits and how Noter can eliminate certain problems they want to avoid (cost of similar apps, simplicity, etc.). These descriptions will be displayed on text that contrasts well with the background, neatly fitting into sections that are located on the homepage. 
+
+
+### Strategy Plane
+
+
+### Scope plane
+
+
+### Skeleton Plane
+
+
+### Surface Plane
+
+
+---
 
 ## Project Overview
 
@@ -36,15 +66,14 @@ In the idea phase, the focus was on crafting a clean, user-friendly design that 
 
 During the planning phase, research was conducted into similar apps, such as Microsoft OneNote and Notion to identify best practices in layout, typography, and color schemes. The project was developed with Git and GitHub used for version control. The creation process involved iteratively building and refining the site layout, ensuring responsiveness across devices, and maintaining visual consistency throughout.
 
+
 ### Project Scope
 
 The goal for the 'Noter' website is to show prospective users that it is the best (free) option for students and professionals. It offers this through easy navigation, understandable text, and an intuitive layout. 
 
 The site needed to include key informational sections such as an introduction to the service, the 'new note' section, the ability to amend, update and delete notes, the user who created the note, all presented in a clear and visually appealing manner. The project focused on full-stack development, but I used this opportunity to apply React.JS, as I hope to work in front-end development. It was also scoped to be fully responsive, ensuring accessibility and usability on both desktop and mobile devices. The emphasis was on creating a polished, professional site that could realistically be used by anyone. 
 
-## User Experience (UX)
 
-To ensure great user experience, it's imperative to know who my target audiences are. Afterwhich, I can craft a strategy to appeal to them, stating the benefits and how Noter can eliminate certain problems they want to avoid (cost of similar apps, simplicity, etc.). These descriptions will be displayed on text that contrasts well with the background, neatly fitting into sections that are located on the homepage. 
 
 ### Demographics
 

@@ -13,6 +13,8 @@ class UserSerializer(serializers.ModelSerializer):
         user = User.objects.create_user(**validated_data)
         return user
 
+
+#Note Serializer
 class NoteSerializer(serializers.ModelSerializer):
     class Meta:
         model = Note
