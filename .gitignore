@@ -1,3 +1,46 @@
-.venv
-.heroku/
+# --- Python / Django ---
+__pycache__/
+*.py[cod]
+*$py.class
+db.sqlite3
+db.sqlite3-journal
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Django-specific
+*.log
+local_settings.py
+media/
+staticfiles/
+
+# --- Node / Frontend ---
+node_modules/
+dist/
+build/
+.vite/
+*.local
+*.lock
+*.cache
+
+# --- Environment files ---
+.env
+.env.*
 creds.json
+*.key
+*.pem
+
+# --- IDE / Editor / System files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Testing / Coverage ---
+.coverage
+htmlcov/
+.pytest_cache/
+coverage.xml
