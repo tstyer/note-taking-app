@@ -20,6 +20,7 @@ from api.views import index as index_views
 from api.views import CreateUserView
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
+#All the paths below, except for the last, are related to authentication. The last diects any other to the other URL file. 
 urlpatterns = [
     path('hello/', index_views, name='index'),
     path('admin/', admin.site.urls),
@@ -27,4 +28,5 @@ urlpatterns = [
     path('api/token/', TokenObtainPairView.as_view(), name="Get_token"),
     path('api/token/refresh/', TokenRefreshView.as_view(), name="refresh"),
     path('api-auth/', include("rest_framework.urls")),
+    path('api/', include("api.urls")) #This is created to any other links the user types with API forward this to the file specified.
 ]
