@@ -18,13 +18,25 @@ function RegisterAndLogout() {
   return <Register />
 }
 
-
+// This app allows us to navigate through the different pages. 
 function App() {
-
   return (
-    <>
-    
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={    // Here, you cannot access the protected route - the home - if you do not have a token.
+            <ProtectedRoute>
+              <Home />
+            </ProtectedRoute>
+          }
+        />
+        <Route path="/login" element={<Login />} />
+        <Route path="/logout" element={<Logout />} />
+        <Route path="/register" element={<RegisterAndLogout />} />
+        <Route path="*" element={<NotFound />}></Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
