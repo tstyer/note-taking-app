@@ -1,43 +1,47 @@
-import React from "react"
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
-import Login from "./pages/login"
-import Register from "./pages/register"
-import Home from "./pages/home"
-import NotFound from "./pages/not_found"
-import ProtectedRoute from "./components/ProtectedRoutes"
 
+import React from "react";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import Login from "./pages/login.jsx";
+import Register from "./pages/register.jsx";
+import Home from "./pages/home.jsx";
+import NotFound from "./pages/not_found.jsx";
+import ProtectedRoute from "./components/ProtectedRoutes.jsx";
 
 function Logout() {
-  localStorage.clear()
-  return <Navigate to="/login" />
+  localStorage.clear();
+  return <Navigate to="/login" replace />;
 }
 
-// When registering, you need to ensure the local storage is cleared. 
+// When registering, you need to ensure the local storage is cleared.
 function RegisterAndLogout() {
-  localStorage.clear()
-  return <Register />
+  localStorage.clear();
+  return <Register />;
 }
 
 // This app allows us to navigate through the different pages. 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
+        {/* Make the root show Login */}
+        <Route path="/" element={<Navigate to="/login" replace />} />
+
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<RegisterAndLogout />} />
+        <Route path="/logout" element={<Logout />} />
+
+        {/* Protect Home at /home instead of / */}
         <Route
-          path="/"
-          element={    // Here, you cannot access the protected route - the home - if you do not have a token.
+          path="/home"
+          element={              // Here, you cannot access the protected route - the home - if you do not have a token.
             <ProtectedRoute>
               <Home />
             </ProtectedRoute>
           }
         />
-        <Route path="/login" element={<Login />} />
-        <Route path="/logout" element={<Logout />} />
-        <Route path="/register" element={<RegisterAndLogout />} />
-        <Route path="*" element={<NotFound />}></Route>
+
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
-
-export default App
