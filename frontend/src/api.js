@@ -12,5 +12,11 @@ api.interceptors.request.use(
         if (token) {
             config.headers.Authorization = `Bearer ${token}` //How the jwt access token is passed. 
         }
+        return config
+    },
+    (error) => {
+        return Promise.reject(error)
     }
 )
+
+export default api
