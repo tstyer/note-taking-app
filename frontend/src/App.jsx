@@ -25,11 +25,9 @@ export default function App() {
       <Routes>
         {/* Make the root show Login */}
         <Route path="/" element={<Navigate to="/login" replace />} />
-
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<RegisterAndLogout />} />
         <Route path="/logout" element={<Logout />} />
-
+        <Route path="/register" element={<RegisterAndLogout />} />
         {/* Protect Home at /home instead of / */}
         <Route
           path="/home"
