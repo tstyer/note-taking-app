@@ -44,6 +44,8 @@ function Home() {
             .catch((err) => alert(err));
     };
 
+    // HTML for the note app - interracts with the instructions above - within the function.
+    //Below, the '{CreateNote}' is the function which creates the new note.
     return (
         <div>
             <div>
@@ -53,7 +55,7 @@ function Home() {
                 ))}
             </div>
             <h2>Create a Note</h2>
-            <form onSubmit={createNote}>
+            <form onSubmit={createNote}>  
                 <label htmlFor="title">Title:</label>
                 <br />
                 <input
