@@ -2,7 +2,7 @@ import { useState } from "react";
 import api from "../api";
 import { useNavigate } from "react-router-dom";
 import { ACCESS_TOKEN, REFRESH_TOKEN } from "../constants";
-import "../styles/Form.css"
+import "../styles/forms.css"
 import LoadingIndicator from "./LoadingIndicator";
 
 function Form({ route, method }) {
@@ -18,13 +18,13 @@ function Form({ route, method }) {
         e.preventDefault();
 
         try {
-            const res = await api.post(route, { username, password })
+            const res = await api.post(route, { username, password }) // This posts to the route that was passed into the form.
             if (method === "login") {
                 localStorage.setItem(ACCESS_TOKEN, res.data.access);
                 localStorage.setItem(REFRESH_TOKEN, res.data.refresh);
                 navigate("/")
             } else {
-                navigate("/login")
+                navigate("/login") // If the user didn't navigate to login, then it'll take them here. 
             }
         } catch (error) {
             alert(error)
